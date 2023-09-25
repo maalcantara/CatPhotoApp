@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CatPhotoApp</title>
+        <link rel="icon" href="assets/cat.jpg">
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+    <main>
+        <header>
+            <h1>CatPhotoApp</h1>
+        </header>
+            <section>
+                <h2>Cat Photos</h2>
+                <!-- TODO: Add link to cat photos -->
+                <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+                <a href="https://freecatphotoapp.com"><img src="assets/icon3.jpg"></a>
+            </section>
+        <section>
+        <h2><br>Cat Lists</h2>
+        <div class="list-container">
+            <div class="list-1">
+                <h3>Things cats love:</h3>
+                <ul>
+                    <li>Cat nip</li>
+                    <li>Laser pointers</li>
+                    <li>Lasagna</li>
+                </ul>
+                <figure>
+                    <img id="lasagna" src="https://i.pinimg.com/564x/84/69/25/8469252d9886aa2d7b98b85c4e281639.jpg" alt="garfield eating lasagna">
+                    <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+                </figure>
+            </div>
+            <div class="list-2">
+                <h3>Top 3 things cats hate:</h3>
+                <ol>
+                    <li>Flea treatment</li>
+                    <li>Thunder</li>
+                    <li>Other cats</li>
+                </ol>
+                <figure>
+                    <img id="cats" src="https://i.pinimg.com/564x/c1/5c/61/c15c6147bda715344cde37320ed31b58.jpg" alt="cats fighting">
+                    <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+                </figure>
+            </div>
+        </div>
+        </section>
+        <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+            <fieldset class="form-1">
+                <legend>Is your cat an indoor or outdoor cat?</legend>
+                <!--selecionar um botão de opção automaticamente desmarque a seleção do outro, os dois botões devem ter um atributo de name com o mesmo valor.-->
+                <label><input id="indoor" name="indoor-outdoor" type="radio" value="indoor" checked> Indoor</label>
+                <label><input id="outdoor" name="indoor-outdoor" type="radio" value="outdoor"> Outdoor</label>
+            </fieldset>
+            <fieldset class="form-2">
+                <legend>What's your cat's personality?</legend>
+                <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+                <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+                <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+            </fieldset>
+            <div class="submit">
+                <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        </section>
+    </main>
+    <footer>
+        <br>
+        <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+        <a href="https://github.com/maalcantara" target="_blank">
+            <img src="assets/github.ico" alt="github icon"></a>
+    </footer>
+    </body>
+</html>
