@@ -1,0 +1,48 @@
+body {
+    font-family: montserrat;
+    text-align: center;
+    background-image: url(assets/wallpapercats.png);
+}
+ul, ol {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top; /* Alinha o topo das listas */
+    margin-right: 20px; /* Adiciona margem direita para separar as listas */
+}
+.list-container {
+    display: flex; /* Use flexbox para alinhar as divs lado a lado */
+    justify-content: center; /* Distribua o espaço entre as divs */
+    align-items: flex-start; /* Alinhe o conteúdo ao topo */
+}
+#lasagna, #cats {
+    width: 400px;
+    height: auto;
+}
+.list-1, .list-2 {
+    margin-right: 50px; /* Ajuste a margem direita para controlar o espaço entre as divs */
+}
+.form-1, .form-2 {
+    display: inline-block; /* Define como elemento de bloco em linha */
+    max-width: 100%; /* Define a largura máxima como 100% para não se estender além do conteúdo */
+    border: 1px solid #ccc; /* Adicione uma borda */
+    padding: 10px;
+}
+.submit {
+    font-family: montserrat;
+    display: inline-flex; /* Define como elemento de bloco em linha */
+    max-width: 100%; /* Define a largura máxima como 100% para não se estender além do conteúdo */
+    border: 1px solid #ccc; /* Adicione uma borda */
+    padding: 8px; 
+    font-size: 18px;
+}
+.submit input[type="text"], .submit button {
+    font-family: montserrat;
+    font-size: 16px; /* Aumentar o tamanho da fonte para 16 pixels */
+}
+footer  a img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px; /* Adiciona uma margem à direita para separação */
+}
+
+
